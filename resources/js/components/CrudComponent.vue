@@ -25,7 +25,12 @@
 
                     <td>{{ crud.id }}</td>
 
-                    <td>{{ crud.name }}</td>
+                    <td>
+                        <img
+                            :src="`/images/${crud.color}.png`"
+                            width="80"
+                        >
+                    </td>
 
                     <td>
                         <span
